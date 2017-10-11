@@ -12,5 +12,5 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 07. Modules
 08. Exceptions
 09. Lists & Dictionaries
-10. Multi PRocessing
+10. Multi Processing
 11. Unit Tests
