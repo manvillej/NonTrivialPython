@@ -1,3 +1,4 @@
+"""Progam 1 of Ynon Perek's NonTrivial Python, asks the user for an integer, and returns the sum of the digits in that number"""
 import sys
 
 def main():
