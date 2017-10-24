@@ -6,6 +6,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 ### 01. Basic Syntax
 #### [basicsyntax1.py](./basicsyntax1.py)
  - takes an integer input and returns the sum of its digits
+#### [basicsyntax2.py](./basicsyntax2.py)
+ - Not completed because the program is very similar to my [word2vec](https://github.com/manvillej/Word2Vec/blob/master/word2vec.py) and this is for the sake of my learning and not the arbitrary completion of a project
 ### 02. Text Processing
 ### 03. OS Integration
 ### 04. Functions
