@@ -5,6 +5,7 @@ def main():
     """interprets the initial commandline argument to decide to run testing or the main program"""
     if(len(sys.argv)==1):
         running = True
+        print('\nRunning basicSyntax1...\n')
         while(running):
             value = input('Enter a number(press q to quit): ')
             running = (checkIsNumber(value)!=0)
@@ -27,12 +28,13 @@ def sumNumbers(number):
 def checkIsNumber(value):
     """returns 0 if value=q, 1 if value is digit, -1 otherwise"""
     if(value.lower()=='q'):
+        print('    Quitting basicSyntax1...\n')
         return 0
     elif(value.isdigit()):
-        print(sumNumbers(value))
+        print('    Sum of {} = {}'.format(value,sumNumbers(value)))
         return 1
     else:
-        print('That is not an integer or \'q\'.')
+        print('    That is not an integer or \'q\'')
         return -1
 
 def test():
