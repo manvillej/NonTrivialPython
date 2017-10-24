@@ -2,19 +2,23 @@
 import sys
 
 def main():
-    """interprets the initial commandline argument to decide to run testing or the main program"""
-    if(len(sys.argv)==1):
+    """passes the commandline arguments to the utility program"""
+    utility(sys.argv)
+
+def utility(argv):
+    """interprets the passed commandline argument to decide to run testing or the main program"""
+    if(len(argv)==1):
         running = True
-        print('\nRunning basicSyntax1...\n')
+        print('\nRunning basicSyntax1...')
         while(running):
-            value = input('Enter a number(press q to quit): ')
+            value = input('\nEnter a number(press q to quit): ')
             running = (checkIsNumber(value)!=0)
-    elif(len(sys.argv)==2 and sys.argv[1] =='test'):
+    elif(len(argv)==2 and argv[1] =='test'):
         test()
     else:
         print('\nWelcome to part 1 of NonTrivial Python: Basic Syntax')
         print('Run without arguments to access the main program')
-        print('Run with the argument \'test\' to run the testing program\n')
+        print('Run with the argument \'test\' to run the testing program\n')   
             
 
 def sumNumbers(number):
