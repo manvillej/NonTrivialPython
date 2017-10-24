@@ -3,14 +3,17 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 
 
 ## The exercises are split into the following Sections:
-01. Basic Syntax
-02. Text Processing
-03. OS Integration
-04. Functions
-05. Decorators & Generators
-06. Classes
-07. Modules
-08. Exceptions
-09. Lists & Dictionaries
-10. Multi Processing
-11. Unit Tests
+###01. Basic Syntax
+####{basicsyntax1.py}[./basicsyntax1.py]
+ - takes an integer input and returns the sum of its digits
+
+###02. Text Processing
+###03. OS Integration
+###04. Functions
+###05. Decorators & Generators
+###06. Classes
+###07. Modules
+###08. Exceptions
+###09. Lists & Dictionaries
+###10. Multi Processing
+###11. Unit Tests
