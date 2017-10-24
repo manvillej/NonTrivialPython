@@ -1,6 +1,7 @@
 import sys
 
 def main():
+    """interprets the initial commandline argument to decide to run testing or the main program"""
     if(len(sys.argv)==1):
         running = True
         while(running):
@@ -15,6 +16,7 @@ def main():
             
 
 def sumNumbers(number):
+    """returns the sum of the individual numbers in number"""
     #converts string to array of chars
     numbers = list(number)
     #converts each char to an integer
@@ -22,6 +24,7 @@ def sumNumbers(number):
     return sum(numbers)
 
 def checkIsNumber(value):
+    """returns 0 if value=q, 1 if value is digit, -1 otherwise"""
     if(value.lower()=='q'):
         return 0
     elif(value.isdigit()):
@@ -32,6 +35,7 @@ def checkIsNumber(value):
         return -1
 
 def test():
+    """runs a series of tests on the program"""
     print('\nTesting...')
         
 
