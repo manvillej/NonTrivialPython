@@ -22,12 +22,21 @@ def utility(argv):
             
 
 def sumNumbers(number):
-    """returns the sum of the individual numbers in number"""
-    #converts string to array of chars
-    numbers = list(number)
-    #converts each char to an integer
-    numbers = list(map(int, numbers))
-    return sum(numbers)
+    """
+    returns the sum of the individual numbers in number. 
+    Also fulfills the functions:1 of Ynon's NonTrivial Python
+    """
+    result = ''
+    try: 
+        #converts string to array of chars
+        numbers = list(number)
+        #converts each char to an integer
+        numbers = list(map(int, numbers))
+        result = sum(numbers) 
+    except ValueError:
+        print("Oops!  That was not a number.  Try again...")
+    return result
+    
 
 def checkIsNumber(value):
     """returns 0 if value=q, 1 if value is digit, -1 otherwise"""

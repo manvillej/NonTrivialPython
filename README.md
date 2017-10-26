@@ -11,6 +11,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 ### 02. Text Processing
 ### 03. OS Integration
 ### 04. Functions
+#### [Functions 1](./basicsyntax1.py)
+ - function takes input of number, sums digits, throws value error otherwise
 ### 05. Decorators & Generators
 ### 06. Classes
 ### 07. Modules
