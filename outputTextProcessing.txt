@@ -1,0 +1,6 @@
+interface,inet,status
+lo0,127.0.0.1,
+gif0,,
+en0,10.176.85.19,active
+en1,,inactive
+p2p0,,inactive
