@@ -26,8 +26,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - function takes input of number, sums digits, throws value error otherwise
 #### 2. [Functions 2](./Function2.py) - Completed
  - function any number of inputs, returns the multiplicative sum of all the numbers, otherwise, returns 1
-#### 3. [Functions 3](./README.md) - Incomplete
- - To be completed
+#### 3. [Functions 3](./Function3.py) - Completed
+ - function that takes a number any any number of words. returns a list of all the words longer than that number
 #### 4. [Functions 4](./README.md) - Incomplete
  - To be completed
 
