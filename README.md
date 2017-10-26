@@ -13,6 +13,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 ### 04. Functions
 #### [Functions 1](./basicsyntax1.py)
  - function takes input of number, sums digits, throws value error otherwise
+#### [Functions 2](./Function2.py)
+ - function any number of inputs, returns the multiplicative sum of all the numbers, otherwise, returns 1
 ### 05. Decorators & Generators
 ### 06. Classes
 ### 07. Modules
