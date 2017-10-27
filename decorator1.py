@@ -1,9 +1,13 @@
+"""fulfills Ynon Perek's nontrivial python, Decorator & Generators, par1"""
 class after5(object):
+    """"""
     def __init__(self, func):
+        """setc count and stores func as attribute"""
         self.count = 0
         self.func = func
 
     def __call__(self):
+        """checks count, calls func if count < 4, count++"""
         count = self.count
 
         if(count > 4):
@@ -14,6 +18,7 @@ class after5(object):
 
 @after5
 def doit():
+    """prints 'Yo!'"""
     print("Yo!")
 
 
