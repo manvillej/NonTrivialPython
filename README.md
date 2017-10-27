@@ -36,8 +36,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - returns a dictionary where the keys are the outputs of the arguments through the passed function(2) and the values are a list of all inputs that resulted in that output
 
 ### 05. Decorators & Generators - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#decoratorsgenerators)
-#### 1. [Decorators & Generators 1](./README.md) - Incomplete
- - To be completed
+#### 1. [Decorators & Generators 1](./decorator1.py) - Completed
+ - create a decorator class that does not allow the function doit() to do anything for the first 5 calls
 #### 2. [Decorators & Generators 2](./README.md) - Incomplete
  - To be completed
 #### 3. [Decorators & Generators 3](./README.md) - Incomplete
