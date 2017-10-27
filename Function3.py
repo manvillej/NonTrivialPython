@@ -2,6 +2,7 @@ def main():
 	# returns the list: ['baby', 'more', 'time']
 	print("['baby', 'more', 'time']")
 	print(longerThan(3, 'hit', 'me', 'baby', 'one', 'more', 'time'))
+
 def longerThan(number, *args):
 	"""
 	returns a list of all words longer than number. Soooo much easier with list comprehension

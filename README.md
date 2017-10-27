@@ -23,13 +23,17 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 
 ### 04. Functions - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#functions)
 #### 1. [Functions 1](./basicsyntax1.py) - Completed
- - function takes input of number, sums digits, throws value error otherwise
+ - function takes a number as input
+ - returns the sum of the number's digits, throws value error otherwise
 #### 2. [Functions 2](./Function2.py) - Completed
- - function any number of inputs, returns the multiplicative sum of all the numbers, otherwise, returns 1
+ - function any number of inputs
+ - returns the multiplicative sum of all the numbers, otherwise, returns 1
 #### 3. [Functions 3](./Function3.py) - Completed
- - function that takes a number any any number of words. returns a list of all the words longer than that number
-#### 4. [Functions 4](./README.md) - Incomplete
- - To be completed
+ - function that takes a number any any number of words.
+ - returns a list of all the words longer than that number
+#### 4. [Functions 4](./Function4.py) - Completed
+ - a function(1) that takes a function(2), and any number of arguments
+ - returns a dictionary where the keys are the outputs of the arguments through the passed function(2) and the values are a list of all inputs that resulted in that output
 
 ### 05. Decorators & Generators - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#decoratorsgenerators)
 #### 1. [Decorators & Generators 1](./README.md) - Incomplete
