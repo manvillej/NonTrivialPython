@@ -40,8 +40,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - create a decorator class that does not allow the function doit() to do anything for the first 5 calls
 #### 2. [Decorators & Generators 2](./decorator2.py) - Completed
  - decorator the saves memory by reducing the number of times fibonacci sequence is called
-#### 3. [Decorators & Generators 3](./README.md) - Incomplete
- - To be completed
+#### 3. [Decorators & Generators 3](./decorator3.py) - Completed
+ - Fibonacci sequence of Decorators & Generators completed with a non recursive generator instead of recursive function
 #### 4. [Decorators & Generators 4](./README.md) - Incomplete
  - To be completed
 #### 5. [Decorators & Generators 5](./README.md) - Incomplete
