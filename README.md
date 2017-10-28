@@ -38,8 +38,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
 ### 05. Decorators & Generators - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#decoratorsgenerators)
 #### 1. [Decorators & Generators 1](./decorator1.py) - Completed
  - create a decorator class that does not allow the function doit() to do anything for the first 5 calls
-#### 2. [Decorators & Generators 2](./README.md) - Incomplete
- - To be completed
+#### 2. [Decorators & Generators 2](./decorator2.py) - Completed
+ - decorator the saves memory by reducing the number of times fibonacci sequence is called
 #### 3. [Decorators & Generators 3](./README.md) - Incomplete
  - To be completed
 #### 4. [Decorators & Generators 4](./README.md) - Incomplete
