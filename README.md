@@ -42,8 +42,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - decorator the saves memory by reducing the number of times fibonacci sequence is called
 #### 3. [Decorators & Generators 3](./decorator3.py) - Completed
  - Fibonacci sequence of Decorators & Generators completed with a non recursive generator instead of recursive function
-#### 4. [Decorators & Generators 4](./README.md) - Incomplete
- - To be completed
+#### 4. [Decorators & Generators 4](./decorator4.py) - Completed
+ - decorator that throws assertion error if inputs do not match class types
 #### 5. [Decorators & Generators 5](./README.md) - Incomplete
  - To be completed
 
