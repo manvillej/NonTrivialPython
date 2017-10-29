@@ -44,8 +44,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - Fibonacci sequence of Decorators & Generators completed with a non recursive generator instead of recursive function
 #### 4. [Decorators & Generators 4](./decorator4.py) - Completed
  - decorator that throws assertion error if inputs do not match class types
-#### 5. [Decorators & Generators 5](./README.md) - Incomplete
- - To be completed
+#### 5. [Decorators & Generators 5](./decorator5.py) - Completed
+ - decorator that throws assertion error if output does not match class type
 
 ### 06. Classes - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#classes)
 #### 1. [Classes 1](./README.md) - Incomplete
