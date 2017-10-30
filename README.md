@@ -48,8 +48,8 @@ Completing all the exercises from [Python Exercies by Ynon Perek](https://www.yn
  - decorator that throws assertion error if output does not match class type
 
 ### 06. Classes - [Reference](https://www.ynonperek.com/2017/09/21/python-exercises/?utm_source=mybridge&utm_medium=blog&utm_campaign=read_more#classes)
-#### 1. [Classes 1](./README.md) - Incomplete
- - To be completed
+#### 1. [Classes 1](./class.py) - Complete
+ - Class to track dependencies of objects and get the complete list of dependencies with no duplicates, depth first
 #### 2. [Classes 2](./README.md) - Incomplete
  - To be completed
 #### 3. [Classes 3](./README.md) - Incomplete
